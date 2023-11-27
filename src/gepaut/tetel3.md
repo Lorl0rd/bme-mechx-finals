@@ -1,0 +1,21 @@
+## 3. Kombinációs és szekvenciális logikai hálózat fogalma. Nem teljesen határozott logikai hálózat fogalma. Statikus és dinamikus hazárd
+
+- kombinációs hálózat fogalma
+  - Olyan (működésüket tekintve logikai függvényekkel leírható) logikai hálózatok, rendszerek, melyek adott pillanatbeli kimeneti állapotát, értékét egyértelműen meghatározza bemeneti állapota, értéke
+- szekvenciális hálózat fogalma
+  - Olyan logikai hálózat, amelynek adott pillanatbeli kimeneti állapotát az adott pillanatbeli és korábbi bemeneti és kimeneti állapota határozza meg
+  - képes “emlékezni”, memória
+- nem teljesen határozott logikai hálózat
+  - a logikai függvény bizonyos celláinak értéke nem specifikált, amelyeket egyszerűsítéskor a kívánalmaknak megfelelően egyaránt tekinthetünk 0-nak vagy 1-nek
+- statikus hazárd
+  - Statikus hazárdnak nevezzük azt a jelenséget, ha egy kétszintes logikai hálózat bemenetén egy változó jelet vált, s annak ellenére, hogy mindkét értékhez azonos kimeneti érték tartozik, a jelváltás hatására mégis fellép egy rövid idejű hamis kimeneti érték.
+  - nem ideális jelterjedés miatt
+  - statikus hazárd és megoldása Karnaugh-táblán: ![[Pasted image 20231126132521.png]]
+  - kapuszintek bevezetésével eltüntethető
+  - szomszédos bemeneti kombinációk kihasználatlansága miatt keletkezhet csak
+- dinamikus hazárd
+  - A dinamikus hazárd, csak három vagy többszintű kapuhálózatokban alakulhat ki, és azokban is csak akkor, ha a hálózatnak van kétszintes, hazárdos részlete.
+  - A dinamikus hazárd úgy jelentkezik, hogy amikor a hálózat egy bemenő jelének szintváltása a kimeneten szintváltást idéz elő, a kimeneten a szintváltás többszörös átmenet után jön csak létre. A dinamikus hazárd elleni védekezés egyszerű – meg kell szüntetni a hazárdot a belső, kétszintes részletben.
+  - pl. \\(x_1 \rightarrow x_2\\) esetén \\(F_1 \rightarrow F_2\\) helyett \\(F_1 \rightarrow F_2 \rightarrow F_1 \rightarrow F_2\\) lesz a kimenet
+  - tranziens közbenső állapotok jönnek létre
+- [forrás](https://kobakbt.hu/jegyzet/DigitTechnika/html/hazard/hazard.html#:~:text=A%20dinamikus%20haz%C3%A1rd%20%C3%BAgy%20jelentkezik,haz%C3%A1rdot%20a%20bels%C5%91%2C%20k%C3%A9tszintes%20r%C3%A9szletben.)

@@ -1,0 +1,1 @@
+## 9. Ismertesse a diszkrét idejű szabályozási kör elvi felépítését, valamint vezesse le a mintavételes rendszer diszkrét idejű állapottér modelljét! Válaszában térjen ki a Shannon-féle mintavételezési törvényre!

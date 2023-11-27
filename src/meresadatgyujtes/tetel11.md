@@ -1,0 +1,1 @@
+## 11. Hogyan határozható meg a kimeneti jel frekvenciája a generált periódus, kimeneti frissítési frekvencia és a generált pontok száma alapján? Milyen hiba merülhet fel folyamatos jelkiadás esetén és hogyan szüntethető meg ez a hiba?

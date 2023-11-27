@@ -1,0 +1,10 @@
+
+- [1. Lebegőpontos és fixpontos számábrázolás definíciók, számok ábrázolása, összehasonlítás, fixpontos műveletek (szorzás, osztás, kivonás), normált fixpontos számok szerepe](./ert/tetel1.md)
+- [2. FPGA FPGA-k lényege, architektúrája (logikai cella és kapcsolóelemek), a programozási technológiák (SRAM, Flash memória), FPGA-k bővítése RAM-mal, CPU-val és további elemekkel, soft és hard IP-k, FPGA hardver fejlesztésének lépései sematikus és VHDL nyelven, VHDL nyelv lényeges tulajdonságai](./ert/tetel2.md)
+- [3. Ipari kommunikációs technikák - alapok ISO/OSI referenciamodell felépítése, közeg-hozzáférés, fizikai rétegek (RS-485, Ethernet, CAN)](./ert/tetel3.md)
+- [4. Ipari kommunikációs technikák – protokollok Profibus és Modbus, IO Link, Ipari ethernet, Profinet, CAN](./ert/tetel4.md)
+- [5. Áramkörök energiatárolása - akkumulátorok akkumulátorok működési elve, paraméterei, helyettesítő modell, lítium-ion alapú akkumulátorok, BMS szerepe és működése](./ert/tetel5.md)
+- [6. Kódgenerálás és HIL szimuláció HIL szimuláció szerepe, kialakulásának oka, HIL lehetőségek, HIL kialakításának fő lépései, Szigma-Delta modulátorok szerepe,](./ert/tetel6.md)
+- [7. Valós idejű operációs rendszerek Round-Rubin, felépítés, preemptív vs. nem-preemptív, taszkok állapotai, szemafor, taszkok közötti kommunikáció, memóriamenedzsment, megszakítások kezelése](./ert/tetel7.md)
+- [8. ARM mikrovezérlők RISC tulajdonságok, architektúraprofilok, ARM utasításkészlet architektúra, feltételes végrehajtás, barrel eltoló, közvetlen konstansok ábrázolása, THUMB végrehajtási módok](./ert/tetel8.md)
+- [9. Egy választott esettanulmány elemzése Az előadás során bemutatott esettanulmányok közül egy választott bemutatás](./ert/tetel9.md)

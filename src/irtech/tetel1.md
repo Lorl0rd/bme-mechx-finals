@@ -1,0 +1,1 @@
+## 1. Ismertesse a kanonikus szabályozási kör elvi felépítését, egy példán keresztül mutassa be, hogy miként befolyásolja az arányos tag (P) a rendszer gyorsaságát, illetve statikus pontosságát. Ismertesse az integráló tag (I) szerepét a szabályozási körben!

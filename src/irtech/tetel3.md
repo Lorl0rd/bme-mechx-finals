@@ -1,0 +1,1 @@
+## 3. Ismertesse a kanonikus szabályozási kör elvi felépítését, mutassa be az alapjel, a zavarás és a zaj hatását, mint a rendszer bemenetei a kimenő jelre, a hibajelre és a beavatkozó jelre, mint a rendszer kimenetei!

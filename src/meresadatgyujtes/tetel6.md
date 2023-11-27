@@ -1,0 +1,30 @@
+## 6. Adja meg a valós-idejű operációs rendszer (RTOS) definícióját! Mik egy valós-idejű operációs rendszer (RTOS) legfontosabb tulajdonságai? Milyen vezérlésű lehet egy valós-idejű operációs rendszer (RTOS)? Mik a valós-idejű operációs rendszer (RTOS) feladatai?
+
+- Egy operációs rendszer valós idejű, ha mindig engedélyezi programjainak, hogy azok adott időbeni korlátokon belül futtassák feladataikat
+  - (az időkorlátokat általában az alkalmazás határozza meg)
+  - e definíció alapján határozhatók meg tulajdonságai is
+    - csak korlátozott számú feladat → minél több, annál jobb
+    - bemeneti csatornák időbeli viselkedésének figyelése
+    - erőforrások monitorozása
+      - háttérben futó alkalmazások megszakítása, ha szükséges a valósidejűség fenntartásához
+      - load shedding — határidőre be nem fejezhető feladatok leállítása
+- eseményvezérelt RTOS
+  - az operációs rendszer állapotgépnek tekinthető, amely egy adott esemény bekövetkezésekor vált állapotot
+  - pl. Rust RTIC (Real-Time Interrupt-driven Concurrency) keretrendszer
+- idővezérelt RTOS
+  - állapotváltozásai az idő függvénye
+  - pl. FreeRTOS (egy task egy előre definiált ideig fut), persze elérhető más ütemezés is
+- feladatai
+  - párhuzamos programozási környezet biztosítása
+    - taskok létrehozása és kezelése
+  - ütemezés
+    - taskok futtatása
+  - taskok közötti kommunikáció, szinkronizálás
+    - (kommunikációs csatornák kezelése)
+    - ringbuffer, queue, stb.
+  - megszakítások kezelése
+  - időzítés
+  - memóriakezelés
+    - mert ilyen egy jó kernel… (pl. Windows NT, Linux, bár ezek nem RTOS-ek)
+  - perifériák kezelése, rendszerprogramok (API)
+    - szintén minden kernel dolga ez

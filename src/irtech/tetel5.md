@@ -1,0 +1,1 @@
+## 5. Folytonos idejű, lineáris, időinvariáns (LTI) rendszerek esetén ismertesse az állapot irányíthatóság definícióját, illetve a vizsgálathoz alkalmazott Kálmán-féle rangfeltételt! Mutassa be az állapot-visszacsatolás tervezésének lépéseit egy bemenetű egy kimenetű (SISO) rendszerekre nézve.

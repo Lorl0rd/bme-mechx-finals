@@ -1,0 +1,1 @@
+## 8. Mit mond ki a mintavételezési (Shannon) törvény? Mi befolyásolja a mintavételezései frekvencia nagyságának megválasztását adott feladatok esetében? Milyen hibák lehetnek mintavételezés során? 9. Mi a véges számú minta lekérésű adatgyűjtés folyamata? Mi a folytonos adatgyűjtés folyamata?

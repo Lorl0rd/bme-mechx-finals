@@ -1,0 +1,1 @@
+## 7. Folytonos idejű, lineáris, időinvariáns (LTI) rendszerek esetén ismertesse az alapjelkompenzációval kiegészített állapot-visszacsatolás tervezésének lépéseit! Vezesse le az állapot-visszacsatolástól független alapjelkompenzáció meghatározására szolgáló összefüggéseket!

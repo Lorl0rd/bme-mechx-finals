@@ -1,0 +1,1 @@
+## 4. Ismertesse arányos-integráló-deriváló (PID) szabályozó egyenletét idő és frekvencia tartományban! Mutassa be a szabályozó tagok szerepét, illetve a pólus-zérus kiejtésen alapuló szabályozótervezés menetét!

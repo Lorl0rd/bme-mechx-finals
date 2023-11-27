@@ -1,0 +1,1 @@
+## 8. Folytonos idejű, lineáris, időinvariáns (LTI) rendszerek esetén mutassa be az állapot megfigyelhetőség definícióját, illetve a vizsgálathoz alkalmazott Kálmán-féle rangfeltételt! Vezesse le az állapot-megfigyelő tervezéséhez szükséges összefüggéseket!

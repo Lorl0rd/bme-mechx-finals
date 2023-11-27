@@ -1,0 +1,46 @@
+## 1. Egy adott feladat, projekt tervezése során a hardver-komponensek és szoftverfejlesztési felmérésénél milyen szempontokat szükséges figyelembe venni?
+
+- hw
+  - megvásárolható-e kész termékként?
+    - nem → egyedi fejlesztés
+      - magas energiaigény
+    - igen → jó választás?
+      - követelmények teljesítése
+      - kompatibilitás
+      - ár
+      - beszerzési idő
+      - dokumentáció
+      - terméktámogatás, garancia
+  - csak később érhető el, vagy kritikus/veszélyes egység
+    - szimuláció, emuláció?
+  - **döntés költség-, erőforrás- és időhatékonysági szempontok alapján**
+- sw
+  - szempontok fejlesztés menetéhez
+    - rugalmasság biztosítása
+      - skálázhatóság
+      - ciklikusság
+      - dinamikus adattípusok
+      - újrahívható állapotok, szubrutinok
+      - könnyen bővíthető állapotgépek és struktúrák
+    - modularitás
+      - amelyek egymástól függetlenül
+        - futtathatók
+        - tesztelhetők
+    - erőforrások védelme
+    - átláthatóság, nyomonkövethetőség
+      - forráskód csoportosítása
+        - könyvtárrendszerbe
+        - osztályokba
+      - dokumentáció
+      - verziókövetés
+  - szempontok felhasználói felülethez
+    - láthatóság
+      - csak a szükséges elemek
+    - dinamikusság, átméretezhetőség
+    - felhasználó tehermentesítése
+      - automatikus funkciók
+        - legutóbbi beállítások betöltése
+        - tevékenységnaplózás
+      - menthető munkamenet
+      - jól feliratozott kezelőfelületek
+    - egyképernyős elrendezés

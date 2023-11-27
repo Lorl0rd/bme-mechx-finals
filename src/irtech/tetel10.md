@@ -1,0 +1,1 @@
+## 10. Mintavételes lineáris, időinvariáns (LTI) rendszerek esetén mutassa be a stabilitás definícióját, valamint ismertesse a véges beállású (dead-beat) szabályozó tervezésének lépéseit állapotvisszacsatolás segítségével
