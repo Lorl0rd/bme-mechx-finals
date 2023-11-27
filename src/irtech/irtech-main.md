@@ -1,5 +1,5 @@
 
-- [1. Ismertesse a kanonikus szabályozási kör elvi felépítését, egy példán keresztül mutassa be, hogy miként befolyásolja az arányos tag (P) a rendszer gyorsaságát, illetve statikus pontosságát. Ismertesse az integráló tag (I) szerepét a szabályozási körben!](./irtech/tetel1.md)
+- [1. Ismertesse a kanonikus szabályozási kör elvi felépítését, egy példán keresztül mutassa be, hogy miként befolyásolja az arányos tag (P) a rendszer gyorsaságát, illetve statikus pontosságát. Ismertesse az integráló tag (I) szerepét a szabályozási körben!](./tetel1.md)
 - [2. Mutassa be lineáris időinvariáns rendszerekre vonatkozóan az alapvető stabilitási definíciókat és azok kritériumait zárt szabályozási körre alkalmazva!](./tetel2.md)
 - [3. Ismertesse a kanonikus szabályozási kör elvi felépítését, mutassa be az alapjel, a zavarás és a zaj hatását, mint a rendszer bemenetei a kimenő jelre, a hibajelre és a beavatkozó jelre, mint a rendszer kimenetei!](./tetel3.md)
 - [4. Ismertesse arányos-integráló-deriváló (PID) szabályozó egyenletét idő és frekvencia tartományban! Mutassa be a szabályozó tagok szerepét, illetve a pólus-zérus kiejtésen alapuló szabályozótervezés menetét!](./tetel4.md)
